@@ -1,0 +1,23 @@
+{
+  "name": "shipping-service",
+  "version": "1.0.0",
+  "description": "Hands on for Cloud Native Developer Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YumaNK/shipping-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "bugs": {
+    "url": "https://github.com/YumaNK/shipping-service/issues"
+  },
+  "homepage": "https://github.com/YumaNK/shipping-service#readme"
+}
