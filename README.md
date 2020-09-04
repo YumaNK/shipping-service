@@ -1,2 +1,2 @@
 # shipping-service
-Hands on for Cloud Native Developer Bootchamp
+Hands on for Cloud Native Developer Bootcamp
