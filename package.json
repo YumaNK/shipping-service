@@ -4,7 +4,12 @@
   "description": "Hands on for Cloud Native Developer Bootcamp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest tests",
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": "8.12.0",
+    "npm": "6.9.0"
   },
   "repository": {
     "type": "git",
@@ -19,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/YumaNK/shipping-service/issues"
   },
-  "homepage": "https://github.com/YumaNK/shipping-service#readme"
+  "homepage": "https://github.com/YumaNK/shipping-service#readme",
+  "devDependencies": {
+    "nock": "^13.0.4",
+    "sinon": "^9.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  }
 }
